@@ -20,7 +20,7 @@ import {
 	RepeatWrapping,
 	Scene,
 	Vector3
-} from "../../../build/three.module.js";
+} from '../../../build/three.module.js';
 
 var GLTFExporter = ( function () {
 
@@ -949,7 +949,7 @@ var GLTFExporter = ( function () {
 
 			var cachedImages = cache.images.get( image );
 			var mimeType = format === RGBAFormat ? 'image/png' : 'image/jpeg';
-			var key = mimeType + ":flipY/" + flipY.toString();
+			var key = mimeType + ':flipY/' + flipY.toString();
 
 			if ( cachedImages[ key ] !== undefined ) return cachedImages[ key ];
 

@@ -925,7 +925,7 @@ THREE.GLTFExporter = ( function () {
 
 			var cachedImages = cache.images.get( image );
 			var mimeType = format === THREE.RGBAFormat ? 'image/png' : 'image/jpeg';
-			var key = mimeType + ":flipY/" + flipY.toString();
+			var key = mimeType + ':flipY/' + flipY.toString();
 
 			if ( cachedImages[ key ] !== undefined ) return cachedImages[ key ];
 
